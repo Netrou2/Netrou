@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Fruit</title>
+    <style>
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #87CEEB; }
+        canvas { border: 2px solid #fff; }
+        #menu { display: flex; flex-direction: column; align-items: center; }
+        #startButton { padding: 10px 20px; font-size: 20px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <h1>Flappy Fruit</h1>
+        <button id="startButton">Jouer</button>
+        <p>Touches à utiliser:</p>
+        <p>↑ ou espace : Sauter</p>
+    </div>
+    <canvas id="gameCanvas" style="display: none;"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
